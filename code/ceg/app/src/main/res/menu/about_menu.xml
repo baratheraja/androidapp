@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.neokree.example.About">
+    <item android:id="@+id/title" android:title="@string/about_title"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_bar_title" android:title="@string/about_title"
+        android:orderInCategory="100"  />
+    <item android:id="@+id/action_bar" android:title="@string/about_title"
+        android:orderInCategory="100"  />
+    <item android:id="@+id/action_bar_root" android:title="@string/about_title"
+        android:orderInCategory="100"  />
+
+</menu>
